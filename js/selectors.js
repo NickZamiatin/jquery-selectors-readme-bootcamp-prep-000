@@ -4,5 +4,5 @@ function paragraphSelector(1){
 }
 
 function lastImageSelector(1){
-  return $('.img');
+  return $('https://s3.amazonaws.com/after-school-assets/confused.gif');
 }
