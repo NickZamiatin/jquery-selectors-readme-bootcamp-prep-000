@@ -4,9 +4,17 @@ function paragraphSelector(){
 }
 
 function lastImageSelector(){
-  return $('img src="https://s3.amazonaws.com/after-school-assets/confused.gif"');
+  return $('img:last');
 }
 
 function ninjaBabySelector(){
-  return $('https://s3.amazonaws.com/after-school-assets/confused.gif');
+  return $('#baby-ninja')
+}
+
+function divSelector(){
+  return $('.pics');
+}
+
+function firstListItem(){
+  return $('ul#pic-list li:first-child');
 }
