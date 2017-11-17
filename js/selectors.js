@@ -1,2 +1,4 @@
 // declare your functions here...
-var $paragraphSelector = $('p')
+function h1Selector(){
+  return $('h1');
+}
